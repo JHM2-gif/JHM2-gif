@@ -31,14 +31,15 @@ I am particularly interested in:
 | Skill | Associated Project |
 |---|---|
 | Windows Troubleshooting | [Windows IT Support Lab](#projects) |
-| Virtualized Network Configuration | [Windows & Kali Network Lab](#projects) |
-| Active Directory Administration | [Active Directory Home Lab](#active-directory-home-lab---in-progress) |
-| User & Group Management | [Active Directory Home Lab](#active-directory-home-lab---in-progress) |
-| DNS & Domain Configuration | [Active Directory Home Lab](#active-directory-home-lab---in-progress) |
+| Virtualized Network Configuration | [Windows & Kali Network Lab](#windows--kali-network-lab) |
+| Active Directory Administration | [Active Directory + Splunk SIEM Lab](https://github.com/JHM2-gif/active-directory-splunk-siem-lab) |
+| User & Group Management | [Active Directory + Splunk SIEM Lab](https://github.com/JHM2-gif/active-directory-splunk-siem-lab) |
+| DNS & Domain Configuration | [Active Directory + Splunk SIEM Lab](https://github.com/JHM2-gif/active-directory-splunk-siem-lab) |
+| SIEM & Log Analysis | [Active Directory + Splunk SIEM Lab](https://github.com/JHM2-gif/active-directory-splunk-siem-lab) |
+| Sysmon Telemetry | [Active Directory + Splunk SIEM Lab](https://github.com/JHM2-gif/active-directory-splunk-siem-lab) |
 | SQL & Database Fundamentals | [SQL Practice Lab](#sql-practice-lab) |
 | Python Fundamentals | [Customer Summary Project](#python-customer-summary-project) |
 | GRC Fundamentals | GRC Learning & Labs |
-| SIEM Fundamentals | Splunk Lab |
 
 ## Tools & Technologies
 
@@ -97,24 +98,33 @@ Currently studying concepts related to:
 
 ## Projects
 
-### Active Directory Home Lab - In Progress
+### Active Directory + Splunk SIEM Lab - In Progress
 
-Building a simulated corporate Windows environment using Windows Server and Windows client machines.
+Building a simulated corporate Windows environment integrated with centralized security monitoring.
 
-Planned and implemented components include:
+Implemented components include:
 
-- Windows Server
+- Windows Server 2022
 - Active Directory Domain Services (AD DS)
 - Domain Controller configuration
 - DNS
 - Organizational Units (OUs)
+- Windows 10 Pro domain endpoint
+- Domain joining
 - User and Group Management
-- Group Policy Objects (GPOs)
-- Windows domain joining
-- Shared folders
-- NTFS permissions
-- Authentication troubleshooting
+- Sysmon telemetry
+- Splunk Universal Forwarder
+- Splunk Enterprise SIEM
+- Windows Event Log collection
+- Centralized log monitoring
+- Virtual network configuration
 - Network troubleshooting
+- Authentication troubleshooting
+- Kali Linux attack workstation
+
+The next phase of the project will focus on generating controlled activity from Kali Linux, analyzing authentication events in Splunk, and creating basic detection logic using SPL.
+
+[View Active Directory + Splunk SIEM Lab](https://github.com/JHM2-gif/active-directory-splunk-siem-lab)
 
 ---
 
